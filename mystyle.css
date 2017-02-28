@@ -8,3 +8,11 @@ body {
   padding:25px;border-radius:
   25px;color:purple;
 }
+#flashcard input[type=button]{
+  background-color:#6767e1;
+  color:pink;
+  padding:12px;
+}
+#flashcard input[type=zero]{
+  color:#6767e1;padding:8px;
+}
