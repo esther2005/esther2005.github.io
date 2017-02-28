@@ -2,6 +2,7 @@
   <head>
     <title>Flash Card App</title>
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="flashcard.js"></script>
   </head>
   <body>
     <div id="container">
@@ -28,10 +29,10 @@
           
          </p>
          <p id="answer">
-           0
+           <input type="text" value="0"id="answerInput" />
          </p>
          <p>
-           <input type="button" value="Check Answer" onclick="check Answer()" />
+           <input type="button" value="Check Answer" onclick="checkAnswer()" />
          </p>
          <p id="response">
            
