@@ -1,5 +1,5 @@
 body{
-  background-color:lightgray;
+ background-color:#edd8c4;
   padding:20px;
   
 }
@@ -15,28 +15,33 @@ body{
 #nav{
   float:left;
   text-align:left;
-  background-color:#edd8c4;
+
   
   width:130px;
   height:100%;
   border-right:solid;
   border-sidth:5px;
   padding-left:10px;
-  border-radius:30px;
+  
 }
 
+#welcome{
+  padding-top:20px;
+}
 #main{
   
   text-align:right;
   background-color:#d1a77b;
   width:100%;
-  height:100%;
-  border-radius:10px;
+  height:100%;  
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius:20px;
 }
 #banner{
   
   float:top;
   height:200px;
   width:100%;
-  border-radius:10px
+  border-top-right-radius:20px;
+  border-top-left-radius:20px;
 }
