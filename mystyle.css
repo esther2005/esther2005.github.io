@@ -2,12 +2,12 @@ body {
   text-align:center;
 }
 
-#container{
+/*#container{
   background-color:pink;
   color:white;maargin:25px;
   padding:25px;border-radius:
   25px;color:purple;
-}
+}*/
 #flashcard input[type=button]{
   background-color:#6767e1;
   color:pink;

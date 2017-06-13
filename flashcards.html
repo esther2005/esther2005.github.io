@@ -1,43 +1,49 @@
 <html>
   <head>
-    <title>Flash Card App</title>
+    <title>mywebpage.org</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
-    <script src="flashcard.js"></script>
   </head>
   <body>
     <div id="container">
-      <p id="nav">
-        <a href="index.html"> Home </a> | 
-        <a href="aboutme.html"> About Me </a> |
-        <a href="projects.html">Projects</a>
-      </p>
-       <div id="flashcard">
-         <p>
-           <input type="button" value="New Card" onclick="getCard()" />
-         </p>
-         <p id="operand1">
-           0
-         </p>
-         <p id="operator">
-           +
-         </p>
-         <p id="operand2">
-           0
-         </p>
-         <p>
-           __________
-          
-         </p>
-         <p id="answer">
-           <input type="text" value="0"id="answerInput" />
-         </p>
-         <p>
-           <input type="button" value="Check Answer" onclick="checkAnswer()" />
-         </p>
-         <p id="response">
-           
-         </p>
-      </div>
+        <img id="banner" src="violin-with-bow-and-music-notes-web-header.jpg"/>    
+      <section id="nav">
+        <ul>
+          <li><a href="index.html"> Home </a></li> 
+          <li><a href="aboutme.html"> About Me </a></li>
+          <li><a href="projects.html">Projects</a></li>
+         </ul>
+      </section>
+       
+       <section id="main">
+         <div id="flashcard">
+           <p>
+             <input type="button" value="New Card" onclick="getCard()" />
+           </p>
+           <p id="operand1">
+             0
+           </p>
+           <p id="operator">
+             +
+           </p>
+           <p id="operand2">
+             0
+           </p>
+           <p>
+             __________
+
+           </p>
+           <p id="answer">
+             <input type="text" value="0"id="answerInput" />
+           </p>
+           <p>
+             <input type="button" value="Check Answer" onclick="checkAnswer()" />
+           </p>
+           <p id="response">
+
+           </p>
+        </div>
+      </section>
     </div>
   </body>
 </html>
